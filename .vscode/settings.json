@@ -1,0 +1,17 @@
+{
+    "python.defaultInterpreterPath": "${workspaceFolder}/.venv/Scripts/python",
+    "python.terminal.activateEnvironment": true,
+    "python.analysis.ignore": [
+        "**"
+    ],
+    "[python]": {
+        "diffEditor.ignoreTrimWhitespace": false,
+        "editor.formatOnType": true,
+        "editor.wordBasedSuggestions": "off",
+        "editor.codeActionsOnSave": [
+            "source.fixAll"
+        ],        
+    },
+    "ruff.fixAll": true,
+    "mypy.dmypyExecutable": "${workspaceFolder}/.venv/Scripts/dmypy.exe"
+}

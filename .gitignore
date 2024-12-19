@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+
+# Ruff
+.ruff_cache/
+
+# Tests
+.pytest_cache/
+
+# Mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Environment
+.env
+.venv/
