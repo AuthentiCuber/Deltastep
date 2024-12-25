@@ -12,6 +12,6 @@
             "source.fixAll"
         ],        
     },
+    "mypy.dmypyExecutable": "${workspaceFolder}/.venv/Scripts/dmypy.exe",
     "ruff.fixAll": true,
-    "mypy.dmypyExecutable": "${workspaceFolder}/.venv/Scripts/dmypy.exe"
 }
